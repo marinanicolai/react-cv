@@ -3,7 +3,7 @@ import { SidebarProps } from '../app/components/sidebar';
 const sidebar: SidebarProps = {
   name: {
     name: 'Marina Nicolai',
-    title: 'Junior React.js developer',
+    title: 'React.js developer',
   },
   contact: {
     email: { value: 'nicolaimarina@gmail.com', icon: 'fas fa-envelope' },
@@ -12,32 +12,18 @@ const sidebar: SidebarProps = {
     linkedin: { value: 'linkedin.com/in/marina-nicolai-b627b1128', icon: 'fab fa-linkedin' },
     github: { value: 'github.com/marinanicolai', icon: 'fab fa-github' },
   },
-  certifications: {
-    title: 'Certifications',
-    list: [
-      {
-        name: 'CompTia Security+ - Professional',
-        icon: 'fab fa-docker',
-        description: 'CompTia Security+ - 2019',
-      },
-      {
-        name: 'NOVA Web design and development - Professional',
-        icon: 'fab fa-docker',
-        description: 'NOVA - 2021',
-      }
-    ],
-  },
   skills: {
     title: 'Technical Proficiency',
-    list: {
-      languages: [
-        'Javascript'
-      ],
-      frameworks: [
-        'ReactJS'
-      ],
+    list:
+    
+    { React: [],
+      JS:[], 
+      HTML: [],
+      Css:[],
+      WordPress:[]
 
-    },
+    }
+    ,
   },
   education: {
     title: 'Education',
@@ -62,6 +48,21 @@ const sidebar: SidebarProps = {
       { name: 'English', level: 'Full Professional Proficiency' },
       { name: 'Romanian', level: 'Native' },
       { name: 'Russian', level: 'Native' },
+    ],
+  },
+  certifications: {
+    title: 'Certifications',
+    list: [
+      {
+        name: 'CompTia Security+ - Professional',
+        icon: 'fab fa-docker',
+        description: 'CompTia Security+ - 2019',
+      },
+      {
+        name: 'NOVA Web design and development - Professional',
+        icon: 'fab fa-docker',
+        description: 'NOVA - 2021',
+      }
     ],
   },
   interests: {

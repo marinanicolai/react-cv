@@ -13,10 +13,10 @@ const renderSkills = function renderLanguage(key: string, entry: any) {
       <span
         className="lang-desc"
         data-testid={'skills/item-key'}
-      >{`· ${getKeyUpercase(key)}: `}</span>
-      <span className={'lang-desc-details'} data-testid={'skills/item-entry'}>
-        {entry.join(', ')}
-      </span>
+      >{`· ${getKeyUpercase(key)} `}</span>
+      {/* <span className={'lang-desc-details'} data-testid={'skills/item-entry'}>
+        {entry.join(', ')} */}
+      {/* </span> */}
     </li>
   );
 };

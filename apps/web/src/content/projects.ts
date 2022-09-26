@@ -9,6 +9,8 @@ const projects: CategoryProps = {
       title: 'Photos of the World',
       subtitle: 'React app',
       subtitleLink: 'https://photosoftheworld.netlify.app/',
+      sourcetitle: 'Source code ',
+      sourcecodeLink: 'https://github.com/marinanicolai/unsplash-hooks-portofolio',
       tags: ['api', 'react.js', 'hooks', 'styled-components'],
       description: [
         'Engaged in the development of a React application built using Unsplash API, Styled-Components and React Hooks ',

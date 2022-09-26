@@ -14,6 +14,6 @@ export type SidebarProps = {
   readonly education?: EducationProps;
   readonly languages?: LanguageProps;
   readonly interests?: InterestProps;
-  readonly certifications?: CertificationProps;
   readonly skills?: SkillsProps;
+  readonly certifications?: CertificationProps;
 };

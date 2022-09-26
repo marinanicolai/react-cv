@@ -5,6 +5,8 @@ export type ExperienceItem = {
   readonly subtitle: string;
   readonly subtitleDetail?: string;
   readonly subtitleLink?: string;
+  readonly sourcetitle?: string;
+  readonly sourcecodeLink?: string;
   readonly date?: string;
   readonly description: string[];
   readonly tags: string[];
